@@ -1,23 +1,28 @@
 # Xianan Li / 李夏楠
 
-<table>
-  <tr>
-    <td width="62%" valign="top">
+<div style="display: flex; align-items: flex-start; gap: 28px; margin-top: 18px; margin-bottom: 28px;">
 
-M.S. student in Computer Technology at Beijing Jiaotong University  
-Focus: **Large Language Models · Agent Systems · Data Intelligence · Medical AI**
+  <div style="flex: 1; min-width: 0;">
 
-[GitHub](https://github.com/lxn-maker) · [Email](mailto:xiananli@bjtu.edu.cn)
+  <p>
+  M.S. student in Computer Technology at Beijing Jiaotong University<br>
+  Focus: <strong>Large Language Models · Agent Systems · Data Intelligence · Medical AI</strong>
+  </p>
 
-    </td>
-    <td width="38%" align="right" valign="top">
-      <img src="profile.jpg" alt="Xianan Li" width="320" style="border-radius: 14px;" />
-    </td>
-  </tr>
-</table>
+  <p>
+  <a href="https://github.com/lxn-maker">GitHub</a> ·
+  <a href="mailto:xiananli@bjtu.edu.cn">Email</a>
+  </p>
+
+  </div>
+
+  <div style="flex: 0 0 320px;">
+    <img src="profile.jpg" alt="Xianan Li" style="width: 320px; border-radius: 14px;" />
+  </div>
+
+</div>
 
 ---
-
 ## About Me
 
 I am a master's student in Computer Technology at Beijing Jiaotong University.  
