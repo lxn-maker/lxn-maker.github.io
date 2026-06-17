@@ -110,21 +110,58 @@ A clinical risk prediction project for dynamically identifying high-risk pneumon
 
 ---
 
-## Research
+## Research & Publications
 
-### Drug Repurposing with LLM-Enhanced Graph Contrastive Learning
+### DeepRepurpose: A Clinical Effectiveness-Aware Drug Repurposing Platform via LLM-Enhanced Graph Contrastive Learning
 
-- Built biomedical entity representations by combining textual semantics and graph structural information
+**Role:** Co-first author / Student first-author contribution  
+
+DeepRepurpose is an LLM-enhanced graph contrastive learning framework for clinical effectiveness-aware drug repurposing.  
+The work integrates large language model-based biomedical semantic representations, disease-drug graph structural learning, and effectiveness-aware ranking learning to identify and prioritize potential drug-disease associations.
+
+- Built biomedical entity representations by combining LLM-derived textual semantics with graph structural information
 - Applied graph contrastive learning to improve drug-disease association modeling
-- Designed ranking-based learning for clinical effectiveness-aware drug prioritization
+- Introduced ranking learning with clinical effectiveness indications for candidate drug prioritization
+- Identified **909,323 high-confidence drug-disease associations** across **1,944 diseases** and **23,402 candidate drugs**
+- Developed a public web platform for browsing known and predicted drug-disease associations
 - Contributed to methodology design, software implementation, validation, visualization, formal analysis, and data curation
 
-### Knowledge Graph Completion under Few-Shot Uncertainty
+Links:
 
-- Participated in research on few-shot uncertain knowledge graph completion
-- Explored metric learning and meta-relation-aware representation methods
-- Related paper accepted/submitted to high-level academic venue
+- Platform: [DeepRepurpose Web Platform](http://dr.symmap.org)
+- Code: [DeepRepurpose GitHub Repository](https://github.com/2020MEAI/DeepRepurpose)
 
+Citation:
+
+Kuo Yang, **Xianan Li**, Rui Cao, Zehan Yu, Huan Gu, Shuyue Fan, Chongyu Wang, Juxian Tang, Hua Qu, and Xuezhong Zhou.  
+*DeepRepurpose: A Clinical Effectiveness-Aware Drug Repurposing Platform via LLM-Enhanced Graph Contrastive Learning.*
+
+---
+
+### Meta Relation-Aware Metric Learning Framework for Few-Shot Uncertain Knowledge Graph Completion
+
+**Venue:** IEEE Transactions on Knowledge and Data Engineering (TKDE)  
+**Role:** Student second author  
+
+This work studies few-shot uncertain knowledge graph completion, where models need to predict both missing links and confidence scores under sparse knowledge graph settings.  
+We proposed MMUC, a meta relation-aware metric learning framework designed to improve robustness under neighbor sparsity.
+
+- Proposed a meta relation-aware metric learning framework for few-shot uncertain knowledge graph completion
+- Introduced a relation-centric paradigm to reduce dependence on sparse entity neighborhoods
+- Designed an uncertainty-aware similarity learning mechanism for joint link prediction and confidence prediction
+- Evaluated the method on multiple uncertain knowledge graph benchmarks
+- Conducted link prediction, confidence prediction, ablation studies, and sparsity analysis
+- Demonstrated stronger robustness in neighbor-sparse few-shot scenarios
+
+Links:
+
+- Code: [MMUC GitHub Repository](https://github.com/sienna-wxy/MMUC)
+
+Citation:
+
+Xinyan Wang, Kuo Yang, Jian Liu, **Xianan Li**, Rui Hua, Kuan Xu, Zixin Shu, and Xuezhong Zhou.  
+*Meta Relation-Aware Metric Learning Framework for Few-Shot Uncertain Knowledge Graph Completion.*  
+IEEE Transactions on Knowledge and Data Engineering (TKDE).
 ---
 
 ## Experience
